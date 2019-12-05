@@ -4,7 +4,7 @@
   "description": "add a `.gitignore` file without installing gitignore: ` npx gitignore node`",
   "main": "index.js",
   "scripts": {
-    "server" : "nodemon index.js"
+    "server": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/J2Macwilliams/civilazation/issues"
   },
-  "homepage": "https://github.com/J2Macwilliams/civilazation#readme"
+  "homepage": "https://github.com/J2Macwilliams/civilazation#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^3.21.2"
+  }
 }
