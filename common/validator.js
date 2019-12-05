@@ -1,15 +1,14 @@
-module.export = {
+module.exports = {
     isNumber,
     isNotNumber,
-
 };
 
 function isNumber(value) {
-    return !isString(value) && !isNan(parseFloat(value)) && isFinite(value);
+    return !isString(value) && !isNaN(parseFloat(value)) && isFinite(value);
 }
 
 function isNotNumber(value) {
-    return!isNumber(value);
+    return !isNumber(value);
 }
 
 function isString(value) {

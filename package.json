@@ -4,7 +4,9 @@
   "description": "add a `.gitignore` file without installing gitignore: ` npx gitignore node`",
   "main": "index.js",
   "scripts": {
-    "server": "nodemon index.js"
+    "server": "nodemon index.js",
+    "start": "node index.js",
+    "test": "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -18,10 +20,14 @@
   },
   "homepage": "https://github.com/J2Macwilliams/civilazation#readme",
   "devDependencies": {
+    "jest": "^24.9.0",
     "nodemon": "^2.0.1"
   },
   "dependencies": {
     "express": "^4.17.1",
     "helmet": "^3.21.2"
+  },
+  "jest": {
+    "testEnvironment": "node"
   }
 }
