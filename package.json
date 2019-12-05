@@ -1,0 +1,20 @@
+{
+  "name": "civilazation",
+  "version": "1.0.0",
+  "description": "add a `.gitignore` file without installing gitignore: ` npx gitignore node`",
+  "main": "index.js",
+  "scripts": {
+    "server" : "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/J2Macwilliams/civilazation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/J2Macwilliams/civilazation/issues"
+  },
+  "homepage": "https://github.com/J2Macwilliams/civilazation#readme"
+}
